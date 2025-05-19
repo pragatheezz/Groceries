@@ -1,0 +1,166 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../asstes/log-bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  position: fixed;   /*Fixes navbar at the top */
+  top: 0;            /* Ensures it stays at the top */
+  left: 0;           /* Aligns it to the left edge */
+  width: 100%;       /* Ensures full width */
+  /* z-index: 1000;     Keeps it above other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  flex-grow: 1;
+}
+
+
+/* Navigation links container */
+/* .nav-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+  color: #fff;
+} */
+
+/* Login container and link */
+.login-container {
+  margin-left: auto;  /* Push the login to the far right */
+}
+
+.login-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.login-link:hover {
+  background-color: #575757;
+  border-radius: 4px;
+  color: #fff;
+}
+h1, h2 {
+  color: #2c3e50;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Login container styling */
+.login-container2 {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px 30px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+ 
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Input groups */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+  padding: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+/* Button styling */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #5a67d8;
+}
+
+/* Message styling */
+#message {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: red;
+}

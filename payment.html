@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://pay.google.com/gp/p/js/pay.js"></script>
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../asstes/logo.webp" alt="Logo" />
+        </div>
+        <div>
+            <h3 style="padding: 10px;font-family:'Great Vibes', cursive; margin-left: 250px;">One8 Groceries</h3>
+        </div>
+        <ul class="nav-links">
+            <!-- <li id="home"><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li id="scrollToSection1"><a href="#"><i class="fa-solid fa-carrot"></i> Vegetables</a></li>
+            <li id="scrollToSection2"><a href="#"><i class="fa-solid fa-apple-whole"></i> Fruits</a></li>
+            <li id="scrollToSection3"><a href="#"><i class="fa-solid fa-cow"></i> Dairy</a></li>
+            <li id="scrollToSection4"><a href="#"><i class="fa-brands fa-nutritionix"></i> Nuts</a></li>
+            <li id="scrollToSection5"><a href="#"> Rations</a></li> -->
+        </ul>
+        <div id="cart-icon" style="padding: 10px; cursor: pointer;"class="add-to-cart">
+            <i  class="fa-solid fa-cart-shopping cart-ico"></i>
+            <span class="cart-item-count"></span>
+        </div>
+     </nav>
+
+  <div class="main-payment">
+    <!-- Left Side - Card Details -->
+    <div class="payment-container">
+        <h2>Payment Details</h2>
+        <form id="payment-form">
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+
+            <label for="expiry">Expiry Date</label>
+            <input type="text" id="expiry" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" placeholder="123" required>
+
+            <div class="total">
+                <div class="total-title">Total:</div>
+                <div class="total-price" id="tot">$150</div>
+            </div>
+            
+            <button type="submit">Pay</button>
+        </form>
+        <p id="payment-status"></p>
+    </div>
+
+    <!-- Right Side - Google Pay & PhonePe -->
+    <div class="container">
+      
+        <h2>Make a Payment</h2>
+        <input class="g-pay" type="text" placeholder="UPI ID : example@obksi">
+        <div id="gpay-button"></div>
+        <button class="payment-button phonepe-button" onclick="payWithPhonePe()"><i class="fa-brands fa-google-pay"></i></button>
+
+        <input class="g-pay" type="text" placeholder="UPI ID : example@obksi">
+        <button class="payment-button phonepe-button" onclick="payWithPhonePe()"><i class="fa-brands fa-apple-pay"></i></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="payment.js"></script>
+
+</body>
+</html>

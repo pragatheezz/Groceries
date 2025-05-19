@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f8f8;
+  /* background-image: url(../asstes/pay-bg-body.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-image: url(../asstes/log-bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.navbar {
+  position: fixed;   /*Fixes navbar at the top */
+  top: 0;            /* Ensures it stays at the top */
+  left: 0;           /* Aligns it to the left edge */
+  width: 100%;       /* Ensures full width */
+  height: -80px;
+  /* z-index: 1000;     Keeps it above other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  flex-grow: 1;
+}
+
+
+.main-payment {
+  display: flex;
+  gap: 30px;
+  background:lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-image: url(../asstes/pay-mini-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  border: none;
+  margin-top: 50px;
+}
+
+.payment-container, .container {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  /* margin-left: 50px; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #27ae60;
+}
+
+.phonepe-button {
+  background: #27ae60;
+  border-radius: 50%;
+}
+
+.phonepe-button:hover {
+  background: #27ae60;
+}
+
+.g-pay{
+  /* padding: 10px; */
+  margin-top: 26px;
+  width: 400px;
+  /* padding-right: 10px; */
+}
+

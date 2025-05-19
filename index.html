@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="index.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<script src="script.js">
+  
+</script>
+
+
+
+
+
+
+
+<!-- -------------------------------------------nav-bar-------------------------------------------------------------------->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="asstes/logo.webp" alt="Logo" />
+    </div>
+    <div class="title">
+      <h3 style="padding: 10px;font-family:'Great Vibes', cursive;">One8 Groceries</h3>
+    </div>
+    <ul class="nav-links">
+      <li id="home"><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li id="scrollToSection1"><a href="#"><i class="fa-solid fa-carrot"></i> Vegetables</a></li>
+      <li id="scrollToSection2"><a href="#"><i class="fa-solid fa-apple-whole"></i> Fruits</a></li>
+      <li id="scrollToSection3"><a href="#"><i class="fa-solid fa-cow"></i> Dairy</a></li>
+      <li id="scrollToSection4"><a href="#"><i class="fa-brands fa-nutritionix"></i> Nuts</a></li>
+      <li id="scrollToSection5"><a href="#"><i class="fa-solid fa-sack-xmark"></i> Rations</a></li>
+    </ul>
+    <div class="menu">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+
+    </div>
+    <div class="login-container">
+      <a href="./login.html" class="login-link"  id="loginPage">Login</a>
+    </div>
+    <div id="cart-icon" style="padding: 10px; cursor: pointer;"class="add-to-cart">
+      <i  class="fa-solid fa-cart-shopping cart-ico"></i>
+      <span class="cart-item-count"></span>
+    </div>
+  </nav>
+<!-- ---------------------------------------------welcome page---------------------------------------------------------- -->
+
+  <header class="header" >
+    <h1>Welcome to One8 Groceries</h1>
+    <p>Your one-stop shop for all fresh groceries!</p>
+  </header>
+
+  <div class="container">
+    <p style="text-align: center; font-size: 18px; margin-bottom: 30px;">
+      At One8 Groceries, we are committed to delivering quality, sustainability, and exceptional service. Discover what makes us unique:
+    </p>
+
+    <div class="brand-values" >
+      <div class="value-card">
+        <img src="asstes/qulity pro.webp" alt="Quality">
+        <h3>Quality Products</h3>
+        <p>We ensure the highest quality in every item we offer, from fresh produce to packaged goods.</p>
+      </div>
+
+      <div class="value-card">
+        <img src="asstes/eco friendly.jpeg" alt="Sustainability">
+        <h3>Sustainability</h3>
+        <p>Our commitment to eco-friendly practices ensures a healthier planet for future generations.</p>
+      </div>
+
+      <div class="value-card">
+        <img src="asstes/support.webp" alt="Community">
+        <h3>Community Support</h3>
+        <p>We actively support local farmers and businesses, building a stronger community together.</p>
+      </div>
+
+      <div class="value-card">
+        <img src="asstes/inno.jpg" alt="Innovation">
+        <h3>Innovation</h3>
+        <p>We constantly innovate to provide you with a seamless shopping experience.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="display" id="home-sec">
+    <h1>Choose what u want from your home  </h1>
+  </div>
+
+
+  <section class="features">
+    <div class="feature-box">
+      <img src="asstes/cimg1.jpeg" alt="Fresh Fruits">
+      <h2>Fresh Fruits</h2>
+      <p>Get the best quality fruits, freshly sourced!</p>
+    </div>
+    <div class="feature-box">
+      <img src="asstes/cimg2.avif" alt="Organic Vegetables">
+      <h2>Organic Vegetables</h2>
+      <p>Healthy, organic veggies straight from the farm!</p>
+    </div>
+    <div class="feature-box">
+      <img src="asstes/cimg3.jpg" alt="Dairy Products">
+      <h2>Dairy Products</h2>
+      <p>Fresh and pure dairy products for your family!</p>
+    </div>
+  </section>
+
+  <div class="card-container">
+    <div style="border-radius: 24px;" class="big-card card">
+      <!-- <h1 style="color: #fff;">Freshy Fruits <br><i style="margin-top: 20px; margin-left: 50px; cursor: pointer;" class="fa-solid fa-cart-shopping" type="submit"></i></h1> -->
+      <button style="padding: 10px; color: #fff; background-color: #333; border: none; border-radius: 20px; font-family: sans-serif; height: 40px;"><a href="">Freshy Fruits</a></button>
+      <a href=""><i style="color: #fff; margin-top: 15px; margin-left: 10px;" class="fa-solid fa-cart-shopping"></i></a>
+      <!-- <img class="smooth-image" src="../asstes/rb_39801.png" alt=""> -->
+      
+    </div>
+    <div class="small-cards">
+      <div class="small-card1 card">
+       <button style="padding: 10px; color: #fff; background-color: #333; border: none; border-radius: 20px; font-family: sans-serif;"><a href="">Freshy Juice</a></button>
+       <a href=""><i style="color: #fff; margin-top: 15px; margin-left: 10px;" class="fa-solid fa-cart-shopping"></i></a>
+
+      </div>
+      <div class="small-card2 card">
+        <button style="padding: 10px; color: #fff; background-color: #333; border: none; border-radius: 20px; font-family: sans-serif;"><a href="">Smoothies</a></button>
+        <a href=""><i style="color: #333; margin-top: 15px; margin-left: 20px;" class="fa-solid fa-cart-shopping"></i></a>
+
+      </div>
+    </div>
+  </div>
+  <div >
+
+<!-- ------------------------------------------------cart------------------------------------------------------------------------- -->
+
+    <div class="side-cart">
+      <h2 class="cart-title">Your Cart</h2>
+      <div class="cart-content">
+          <!-- <div class="cart-box">
+              <img class="cart-img" src="../asstes/veg-1.jpg" alt="Onions">
+              <div class="cart-details">
+                  <h2 class="cart-product-title">Onions</h2>
+                  <span class="cart-price">$50</span>
+                  <div class="cart-quantity">
+                      <button id="decrement">-</button>
+                      <span class="number">1</span>
+                      <button id="increment">+</button>
+                  </div>
+              </div>
+              <i class="fa-solid fa-trash cart-remove"></i>
+          </div> -->
+      </div>
+      <div class="total">
+          <div class="total-title">Total:</div>
+          <div class="total-price" id="tot">$0</div>
+      </div>
+      <button class="btn-buy"><a href="#" id="forAutoRefresh">Buy now</a></button>
+      <i class="fa-solid fa-xmark close-btn" id="cart-close"></i>
+  </div>
+
+  <!-- <div class="side-cart">
+    <h2 class="cart-title">Your Cart</h2>
+    <div class="cart-content">
+      <div class="cart-box">
+        <img class="cart-img" src="../asstes/veg-1.jpg" alt="">
+        <div class="cart-details">
+          <h2 class="cart-product-title">Onions</h2>
+          <span class="cart-price">$50</span>
+          <div class="cart-quantity">
+            <button id="decreament">-</button>
+            <span class="number">1</span>
+            <button id="increament">+</button>
+          </div>
+        </div>
+        <i class="fa-solid fa-delete-left cart-remove"></i>
+      </div>
+    </div>
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">$0</div>
+    </div>
+    <button class="btn-buy">Buy now</button>
+
+    <i class="fa-solid fa-xmark" id="cart-close"></i>
+  </div> -->
+  
+    <h1 id="section1" style="padding: 30px; text-align: center; font-family: 'Dancing Script', cursive;margin-top: 20px;color:#333;">VEGGIE VEGETABLES</h1>
+  </div>
+
+  <div class="vegetables" >
+
+
+
+
+
+    <div class="cards-container">
+      <!-- <h1 class="section-title">Products</h1> -->
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-1.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Onion</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-2.webp" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Brocolli</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="image">
+        <img src="../asstes/veg-2.webp" alt="">
+        <button class="btn" type="button"id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+      </div> -->
+    </div>
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-3.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Potato</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="image">
+        <img src="../asstes/veg-3.jpg" alt="">
+        <button class="btn" type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+      </div> -->
+    </div>
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-4.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Carrot</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+        <img src="../asstes/veg-4.jpg" alt="">
+        <button class="btn" type="button"id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+      </div> -->
+    </div>
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-5.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Tomato</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+        <img src="../asstes/veg-5.jpg" alt="">
+        <button class="btn" type="button"id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+      </div> -->
+    </div>
+   
+  </div>
+  <div class="vegetables">
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-6.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Bittergourd</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+        <img src="../asstes/veg-6.jpg" alt="">
+        <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+      </div> -->
+    </div>
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-7.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Beetroot</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+        <img src="../asstes/veg-7.jpg" alt="">
+        <button class="btn" type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+      </div> -->
+    </div>
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-8.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Brinjal</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+        <img src="../asstes/veg-8.jpg" alt="">
+        <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+      </div> -->
+    </div>
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-9.webp" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Corn</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+        <img src="../asstes/veg-9.webp" alt="">
+        <button class="btn" type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+      </div> -->
+    </div>
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/veg-10.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Capsicum</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+        <img src="../asstes/veg-11.jpg" alt="">
+        <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+      </div> -->
+    </div>
+  </div>
+
+  <div id="section2" style="margin-top: 30px;">
+    <h1 style="padding: 30px; text-align: center; color: #333; font-family: 'Dancing Script', cursive; "> FRESH FRUITS</h1>
+  </div>
+
+ <!-- --------------------------------------------Fruits---------------------------------------------------- -->
+
+ <div class="fruits">
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-1.jpg" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Grapes</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+        </div> -->
+      </div>
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-2.webp" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Banana</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+    
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+    
+        </div> -->
+      </div>
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-3.webp" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Orange</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+    
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+    
+        </div> -->
+      </div>
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-4.jpg" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Strawberry</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+    
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+    
+        </div> -->
+      </div>
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-5.jpg" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Watermelon</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+    
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+    
+        </div> -->
+      </div>
+  </div>
+ <div class="fruits">
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-5.webp" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Pineapple</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+        </div> -->
+      </div>
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-7.jpg" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Blueberry</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+        </div> -->
+      </div>
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-8.jpg" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Avagardo</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+        </div> -->
+      </div>
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-9.jpg" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Saathukudi</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+        </div> -->
+      </div>
+
+      <div class="cards-container">
+
+        <div class="products-content">
+          <div class="product-box">
+            <div class="image">
+              <img src="asstes/fr-10.jpg" alt="">
+              <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+            </div>
+            <h2 class="product-title">Colourfull Grapes</h2>
+            <div class="price-and-cart">
+              <span class="price">$50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+              
+
+            </div>
+          </div>
+        </div>
+        <!-- <div class="image">
+          <img src="../asstes/veg-6.jpg" alt="">
+          <button class="btn"type="button"id="addToCart"style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px; "><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button>
+
+        </div> -->
+      </div>
+ </div>
+
+ 
+   
+  <div class="section2">
+    <div class="sec-card">
+      <h1>We Prioritize Organic Products</h1>
+      <p>Were you aware that non-organic items can contain substantial pesticide residues and artificial preservatives? That's why we emphasize sourcing organic items. They not only offer a more delightful taste but also contribute to maintaining healthier soils and promoting biodiversity.<br>
+
+        Our commitment to quality is evident in our strict standards, with over 500 ingredients on our "never" list. From artificial food dyes to additives, we scrutinize every product we produce and sell to ensure they are not only healthy for you but also for the environment.</p>
+      <button style="padding: 15px 10px; border-radius: 10px; border: none;font-family: sans-serif; margin-left: 300px;  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><a href="">Learn More</a></button>
+      
+    </div>
+    <div class="ad">
+      <img src="asstes/ad-img.png" alt="">
+    </div>
+    
+  </div>
+  <!-- ---------------------------------------------dairy-------------------------------------------------------------- -->
+  <div id="section3">
+    <h1  style="padding: 30px; text-align: center; color: #333; font-family: 'Dancing Script', cursive;" >DAIRY</h1>
+  </div>
+  <div class="dairy-products" >
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/dai-1.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Milk</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/di-2.webp" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Cheese</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/di-3.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Paneer</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/di-4.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Egg</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- ------------------------------------------------------rations-------------------------------------------------- -->
+
+  <div id="section4" style="margin-top: 30px;">
+    <h2 style="padding: 30px; text-align: center; color: #333; font-family: 'Dancing Script', cursive;"  >NUTS</h2>
+  </div>
+  <div class="rations">
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-1.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Walnut</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>   
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-2.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Pista</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-3.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Peanuts</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-4.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Badhaam</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-5.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Cashew</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="advertise-ban">
+    <div class="rating-stars">
+      <h1>Rate Your Experience</h1>
+      <center>
+        <div class="stars">
+          <i id="myIcon" class="fa-regular fa-star star"></i>
+          <i id="myIcon2" class="fa-regular fa-star star"></i>
+          <i id="myIcon3" class="fa-regular fa-star star"></i>
+          <i id="myIcon4" class="fa-regular fa-star star"></i>
+          <i id="myIcon5" class="fa-regular fa-star star"></i>
+        </div>
+      </center>
+    </div>
+  </div>
+
+  <div id="section5" style="margin-top: 30px;">
+    <h2 style="padding: 30px; text-align: center; color: #333; font-family: 'Dancing Script', cursive;" >RATIONS</h2>
+  </div>
+
+
+  <div class="rations">
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-6.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">beans</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-7.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">soy beans</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-8.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Sprouts</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-9.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">raw beans</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-10.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">White beans</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="rations">
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-11.webp" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Oats</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-12.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Rice</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-13.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Millet</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-14.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Finger Millet</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/wheat.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Flour</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="rations">
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-16.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Phenoil</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-17.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Dishwash Liquid</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-18.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Washing Liquid</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-19.jpg" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Oils</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+
+      <div class="products-content">
+        <div class="product-box">
+          <div class="image">
+            <img src="asstes/ra-20.webp" alt="">
+            <!-- <button class="btn" type="button" id="addToCart" style="margin-left: 80px; padding: 7.5px; border: none;border-radius: 2px; margin-top: 10px;background-color: #C4E1C1;padding: 10px 15px;"><a href="">Add to <i class="fa-solid fa-cart-shopping"></i></a></button> -->
+          </div>
+          <h2 class="product-title">Tea & Coffee Pow</h2>
+          <div class="price-and-cart">
+            <span class="price">$50</span>
+              <i class="fa-solid fa-cart-shopping add-cart"></i>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+ 
+  <div class="email-banner">
+  <center>
+   <div class="subs">
+    <h2>Subscibe to our e-mails</h2>
+    <input type="email" placeholder="example@gmail.com" > <button><a href="">subscribe</a>  <i class="fa-solid fa-paper-plane"></i></button>
+   
+   </div>
+  </center>
+  </div>
+  <div style="display: flex; gap: 30px;" class="feedback">
+    <div class="fed-mod-one">
+      <div style="display: flex; " class="address">
+        <img  style="height: 80px; width: 90px; padding-left: 20px;padding-top: 20px;" src="asstes/logo.webp" alt="">
+        <h3 style="font-family: 'Great Vibes', cursive; padding-left: 20px;padding-top: 20px; margin-top: 10px;font-size:40px;color: greenyellow;" >One8 Groceries</h3>
+      </div>
+      <div style="padding: 30px;" class="address-two" >
+        <h3 style="padding: 10px 20px;color: #ffffff;"><i class="fa-solid fa-location-dot"></i> 10,Old Post Office Street,<br>TVS tolegate,<br>Tiruchirapalli.</h3>
+        <h3  style="padding: 10px 20px;color: #ffffff;"><i class="fa-solid fa-phone"></i> 9789302179</h3>
+        <h3 style="padding: 10px 20px;color: #ffffff;"><i class="fa-solid fa-envelope"></i> One8groceries@gmail.com</h3>
+      </div>
+    </div>
+
+    <div class="fed-mode-two">
+      
+        <div style="padding: 40px;">
+          <h2 style="color: #fff;">Help</h2>
+        </div>
+       <div  style="padding: 30px;color: #fff; font-family: sans-serif; font-weight: bold;" >
+        <li style="padding: 10px;"><a href="">Search</a></li>
+        <li style="padding: 10px;"><a href="">Help</a></li>
+        <li style="padding: 10px;"><a href="">Information</a></li>
+        <li style="padding: 10px;"><a href="">Privacy Policy</a></li>
+        <li style="padding: 10px;"><a href="">Shipping Information</a></li>
+       </div>
+
+      
+    </div>
+    <div class="fed-mode-three">
+      <div style="padding: 40px;">
+        <h2 style="color: #fff;">Support</h2>
+      </div>
+      <div  style="padding: 30px;color: #fff; font-family: sans-serif; font-weight: bold;" >
+        <li style="padding: 10px;"><a href="">Contact</a></li>
+        <li style="padding: 10px;"><a href="">About us</a></li>
+        <li style="padding: 10px;"><a href="">Careers</a></li>
+        <li style="padding: 10px;"><a href="">Refund & Returns</a></li>
+        <li style="padding: 10px;"><a href="">Deliveries</a></li>
+       </div>
+
+    </div>
+    <div class="fed-mode-three">
+      <div style="padding: 40px;">
+        <h2 style="color: #fff;">Information</h2>
+      </div>
+      <div  style="padding: 30px;color: #fff; font-family: sans-serif; font-weight: bold;" >
+        <li style="padding: 10px;"><a href="">Search Terms</a></li>
+        <li style="padding: 10px;"><a href="">Advanced Search</a></li>
+        <li style="padding: 10px;"><a href="">Helps & Faqs</a></li>
+        <li style="padding: 10px;"><a href="">Store Location</a></li>
+        <li style="padding: 10px;"><a href="">Others & Returns</a></li>
+       </div>
+    </div>
+    <div class="fed-mode-four">
+      <div style="padding: 40px;">
+        <h2 style="color: #fff;">Follow us on</h2>
+      </div>
+      <div style="padding: 30px;color: #fff;">
+      <a style="padding: 10px;" href=""><i class="fa-brands fa-instagram"></i></a>
+      <a style="padding: 10px;"href=""><i class="fa-brands fa-whatsapp"></i></a>
+      <a style="padding: 10px;" href=""><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
